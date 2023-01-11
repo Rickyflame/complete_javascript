@@ -25,3 +25,21 @@ person.name = 'John';
 person['name'] = 'Mary';
 
 console.log(person.name);
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = '1';
+console.log(selectedColors.length);
+
+//performing a task
+function greet(name, lastNAme) {
+    console.log('hello world ' + name + ' ' + lastNAme);
+}
+
+greet('John', 'Semos');
+greet('mary', 'Wahome');
+//function calculates a value
+function square (number) {
+    return number * number;
+}
+
+
+console.log(square(5));
