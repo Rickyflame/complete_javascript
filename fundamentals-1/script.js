@@ -45,4 +45,46 @@ var job = 'programmer';
 job = 'dev';
 lastName = 'Maina';
 console.log(lastName);
+
+//Basic operators
+const now = 2012;
+const ageTat = 2037- now;
+const ageBrit = 2045 - now;
+console.log(ageBrit, ageTat);
+//assignment operator
+
+let x = 10 + 5;
+x += 10;
+console.log(x);
+console.log(ageBrit < ageTat);
+console.log(now + ageBrit > now + ageTat);
+const averageAge = ageBrit + ageTat / 2;
+const averageAGE = (ageBrit + ageTat) / 2;
+console.log(averageAGE, averageAge);
+
+const firstName = 'Ricky';
+const job = 'Dev';
+const birthDay = 1998;
+const year = 2023;
+const ricky = "I'm " + firstName + ', a ' + (year- birthDay) + " year old " + job;
+console.log(ricky);
+const jonasNew = `I,m ${firstName}, a ${year- birthDay} year old ${job}!`
+console.log(jonasNew);
 */
+//if else statement
+const age = 12;
+
+if(age>= 18) {
+    console.log('sarah can start driving licence');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`sarah is too young, wait another ${yearsLeft} years`)
+}
+const birthYear = 2998;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century)
