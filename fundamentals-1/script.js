@@ -70,7 +70,7 @@ const ricky = "I'm " + firstName + ', a ' + (year- birthDay) + " year old " + jo
 console.log(ricky);
 const jonasNew = `I,m ${firstName}, a ${year- birthDay} year old ${job}!`
 console.log(jonasNew);
-*/
+
 //if else statement
 const age = 12;
 
@@ -88,3 +88,11 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century)
+*/
+//type conversion and coercion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(inputYear + 20);
+// NaN means Not a Number
+console.log(String(23), 23);
+console.log(Number(inputYear) + String(23));
