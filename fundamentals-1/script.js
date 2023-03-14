@@ -88,11 +88,34 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century)
-*/
+
 //type conversion and coercion
 const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
 console.log(inputYear + 20);
 // NaN means Not a Number
 console.log(String(23), 23);
-console.log(Number(inputYear) + String(23));
+console.log(Number(inputYear) + String(23)); 
+
+// type of conversion
+const inputYear = '1978';
+console.log(inputYear + 18);
+console.log(Number(inputYear) + 20);
+console.log(String(69), 50);
+
+//type coercion
+console.log('I am ' + 23 + ' years old');
+//js converts this to a string
+console.log('23' - '10' - 3);
+//if we change the sign to plus it becomes a string
+console.log('23' + '10' - 3)
+//guess the output
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+*/
+// truthy and falsy values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Ricky'));
+console.log(Boolean({}));
