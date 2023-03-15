@@ -113,9 +113,36 @@ console.log('23' + '10' - 3)
 let n = '1' + 1;
 n = n - 1;
 console.log(n);
-*/
+
 // truthy and falsy values
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Ricky'));
 console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log("Dont spend it all");
+} else {
+    console.log("You need a job");
+}
+
+let height;
+if (height) {
+    console.log("yay height is defined");
+} else {
+    console.log("height is undefined");
+}
+*/
+
+//equallty operator
+const age = 19;
+if (age >= 18)console.log("you just became an adult");
+
+const favourite = Number(prompt("whats your favourite number"));
+console.log(favourite);
+if (favourite === 23) {
+    console.log('cool! 23 is an awesome number!');
+} else if (favourite <= 10) {
+    console.log("Your favorite number " + favourite + "is very small");
+}

@@ -1,4 +1,4 @@
-const markWeight = 78;
+/* const markWeight = 78;
 const johnWeight = 92;
 const markHeight = 1.69;
 const johnHeight = 1.76;
@@ -12,4 +12,4 @@ if (markBMI < JohnBMI) {
 } else {
     higher = `John's BMI (${JohnBMI}) is higher than mark's (${markBMI})`
 }
-console.log(higher);
+console.log(higher); */
